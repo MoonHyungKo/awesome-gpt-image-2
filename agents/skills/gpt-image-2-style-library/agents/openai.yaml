@@ -1,3 +1,3 @@
 display_name: GPT-Image2 Style Library
-short_description: Choose GPT-Image2 templates, styles, and prompt constraints.
-default_prompt: Use the GPT-Image2 style library to create a production-ready image prompt.
+short_description: Turn Korean scene requests into one optimized English prompt.
+default_prompt: Use the GPT-Image2 style library to select the best template silently and return one English prompt in one code block, integrating identity, composition, lighting, materials, and physical constraints. Do not generate an image or offer options.
