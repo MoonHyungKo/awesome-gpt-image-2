@@ -102,8 +102,8 @@ function renderReference(library) {
     '- Match explicit product types to template categories first, such as product, poster, UI, infographic, brand, photography, character, or document.',
     '- Match visual words to style tags next, such as realistic, 3D, illustration, classical, brand, poster, or UI.',
     '- Match context words to scene tags next, such as commerce, education, social, food, travel, story, history, tech, or creative.',
-    '- If a request is vague, offer 2-3 strong template directions and ask the user to choose before writing the final prompt.',
-    '- Final output should include the selected template name, a copyable GPT-Image2 prompt, and concise constraints for text, aspect ratio, layout, and negative details.',
+    '- Select one strongest template silently; resolve minor omissions with coherent defaults and do not ask for routine choices.',
+    '- Follow SKILL.md: return one English prompt in one code block, integrating relevant constraints; omit options, source metadata, and separate negative prompts.',
     '',
     '## Template Index',
     ''
